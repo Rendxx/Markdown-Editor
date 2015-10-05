@@ -34,6 +34,7 @@
     <Content Include="gulpfile.js" />
     <Content Include="index.html" />
     <Content Include="src\js\index.js" />
+    <Content Include="src\js\TipBox.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\css\" />

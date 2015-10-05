@@ -12,6 +12,9 @@
     ]
   },
   "js": {
-    "index": [ "#js#/index.js" ]
+    "index": [
+      "#js#/TipBox.js",
+      "#js#/index.js" 
+    ]
   }
 }
