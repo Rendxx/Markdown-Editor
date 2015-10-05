@@ -3,7 +3,9 @@ A simple **GitHub Flavored** Markdown Editor.
 User can enter the Markdown string in this page to get a live preview.  
 Remote URL to a Markdown file is also available.
 
-Link to the Editor: [http://api.rendxx.com/tool/markdowneditor/](http://api.rendxx.com/tool/markdowneditor/)
+![preview](https://raw.githubusercontent.com/Rendxx/Markdown-Editor/master/preview.png "Preview")  
+
+Online Editor: [Click Here to Enter](http://api.rendxx.com/tool/markdowneditor/)
 
 ## Contribution
 Markdown Parser: [chjj/marked][marked]  
@@ -17,7 +19,7 @@ GitHub Flavored CSS: [sindresorhus/github-markdown-css][githubMdCss]
 - IE 9+
 
 ## License 
-Copyright (c) 2015, Rendxx. (MIT License)  
+Copyright &copy; 2015, Rendxx. (MIT License)  
 See [LICENSE][] for more info.
 
 [LICENSE]: https://github.com/Rendxx/Markdown-Editor/blob/master/LICENSE
