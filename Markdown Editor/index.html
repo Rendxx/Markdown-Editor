@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="wwwroot/lib/jquery.js"></script>
+    <script type="text/javascript" src="wwwroot/lib/marked.js"></script>
+    <script type="text/javascript" src="wwwroot/js/index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="wwwroot/css/index.css" />
+    <link type="text/css" rel="stylesheet" href="wwwroot/lib/github-markdown.css" />
+    <title>MarkDown Editor</title>
+</head>
+<body>
+    <div class="left-panel">
+        <div class="md-link">
+            <input id="mdLink" type="text" />
+            <div class="hover-ele"></div>
+            <div id="mdConfirm" class="confirm-btn">Parser</div>
+        </div>
+        <div class="md-input">
+            <textarea id="mdInput"></textarea>
+            <div class="hover-ele"></div>
+        </div>
+    </div>
+    <div class="right-panel">
+        <div id="mdPreview" class="mdPreview markdown-body"></div>
+    </div>
+</body>
+</html>
