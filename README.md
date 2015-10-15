@@ -8,8 +8,9 @@ Remote URL to a Markdown file is also available.
 Online Editor: [Click Here to Enter](http://api.rendxx.com/tool/markdowneditor/)
 
 ## Contribution
-Markdown Parser: [chjj/marked][marked]  
-GitHub Flavored CSS: [sindresorhus/github-markdown-css][githubMdCss]
+- Markdown Parser: [chjj/marked][marked]  
+- GitHub Flavored CSS: [sindresorhus/github-markdown-css][githubMdCss]  
+- highlight.js: [isagalaev/highlight.js][highlightjs]
 
 ## Compatibility
 ```Chrome``` ```Fire Fox``` ```Safari``` ```Edge``` ```IE 9+```
@@ -18,6 +19,9 @@ GitHub Flavored CSS: [sindresorhus/github-markdown-css][githubMdCss]
 Copyright &copy; 2015, Rendxx. (MIT License)  
 See [LICENSE][] for more info.
 
+[highlight.js][highlightjs] is licenced under the BSD licence.
+
 [LICENSE]: https://github.com/Rendxx/Markdown-Editor/blob/master/LICENSE
 [marked]: https://github.com/chjj/marked
 [githubMdCss]: https://github.com/sindresorhus/github-markdown-css
+[highlightjs]: https://github.com/isagalaev/highlight.js
