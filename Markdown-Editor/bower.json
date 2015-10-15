@@ -1,0 +1,11 @@
+{
+	"name": "JavaScriptTemplate",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+    "jquery": "1.11.2",
+    "marked": "^0.3.5",
+    "github-markdown-css": "^2.0.11",
+    "TipBox": "^0.2.2"
+	}
+}

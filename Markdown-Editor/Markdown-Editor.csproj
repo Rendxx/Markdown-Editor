@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{8DB4FA20-DD48-4513-8894-4669D32221D4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <UseGlobalApplicationHostFile />
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="gulpfile.js" />
+    <Content Include="index.html" />
+    <Content Include="src\js\index.js" />
+    <Content Include="wwwroot\localLib\highlightjs\highlight.pack.js" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\agate.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\androidstudio.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\arta.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\ascetic.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-cave.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-cave.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-dune.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-dune.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-estuary.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-estuary.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-forest.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-forest.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-heath.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-heath.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-lakeside.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-lakeside.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-plateau.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-plateau.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-savanna.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-savanna.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-seaside.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-seaside.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-sulphurpool.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\atelier-sulphurpool.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\brown_paper.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\brown_papersq.png" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\codepen-embed.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\color-brewer.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\darkula.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\default.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\docco.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\far.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\foundation.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\github-gist.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\github.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\googlecode.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\grayscale.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\hopscotch.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\hybrid.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\idea.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\ir_black.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\kimbie.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\kimbie.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\magula.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\mono-blue.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\monokai.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\monokai_sublime.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\obsidian.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\paraiso.dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\paraiso.light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\pojoaque.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\pojoaque.jpg" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\railscasts.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\rainbow.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\school_book.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\school_book.png" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\solarized_dark.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\solarized_light.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\sunburst.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\tomorrow-night-blue.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\tomorrow-night-bright.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\tomorrow-night-eighties.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\tomorrow-night.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\tomorrow.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\vs.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\xcode.css" />
+    <Content Include="wwwroot\localLib\highlightjs\styles\zenburn.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bower.json" />
+    <None Include="bundle.json" />
+    <None Include="src\less\index.less" />
+    <None Include="package.json" />
+    <Content Include="wwwroot\localLib\highlightjs\CHANGES.md" />
+    <Content Include="wwwroot\localLib\highlightjs\LICENSE" />
+    <Content Include="wwwroot\localLib\highlightjs\README.md" />
+    <Content Include="wwwroot\localLib\highlightjs\README.ru.md" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Markdown_Editor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
