@@ -12,11 +12,7 @@ Markdown Parser: [chjj/marked][marked]
 GitHub Flavored CSS: [sindresorhus/github-markdown-css][githubMdCss]
 
 ## Compatibility
-- Chrome
-- Fire Fox
-- Safari
-- Edge
-- IE 9+
+```Chrome``` ```Fire Fox``` ```Safari``` ```Edge``` ```IE 9+```
 
 ## License 
 Copyright &copy; 2015, Rendxx. (MIT License)  
