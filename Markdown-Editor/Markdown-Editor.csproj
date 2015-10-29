@@ -17,6 +17,7 @@
     <Content Include="gulpfile.js" />
     <Content Include="index.html" />
     <Content Include="src\js\index.js" />
+    <Content Include="wwwroot\images\MarkDown-Icon.png" />
     <Content Include="wwwroot\localLib\highlightjs\highlight.pack.js" />
     <Content Include="wwwroot\localLib\highlightjs\styles\agate.css" />
     <Content Include="wwwroot\localLib\highlightjs\styles\androidstudio.css" />
@@ -89,7 +90,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\css\" />
-    <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
