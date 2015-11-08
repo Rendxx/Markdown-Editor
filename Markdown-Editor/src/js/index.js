@@ -7,6 +7,8 @@
     var $mdLinkWrap = $('.md-link');
     var $mdInputWrap = $('.md-input');
 
+    var cookieKey = "mdCache";
+
     marked.setOptions({
         highlight: function (code) {
             return hljs.highlightAuto(code).value;
@@ -15,6 +17,7 @@
 
     // md input
     mdInput.addEventListener('keyup', function (e) {
+        $$.cookie.set(cookieKey, mdInput.value);
         mdPreview.innerHTML = marked(mdInput.value);
     });
     
@@ -56,5 +59,12 @@
 
     // init
     mdlink.value = "https://raw.githubusercontent.com/Rendxx/Markdown-Editor/master/README.md";
-    $mdLinkBtn.click();
+
+    var recover = $$.cookie.get(cookieKey);
+    if (recover!=null) {
+        mdInput.value = recover;
+        mdPreview.innerHTML = marked(recover);
+    } else {
+        $mdLinkBtn.click();
+    }
 });

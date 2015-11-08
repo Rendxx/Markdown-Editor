@@ -25,7 +25,8 @@
       "#dest#/jquery": "#src#/jquery/dist/jquery*.{js,map}",
       "#dest#/marked": "#src#/marked/lib/marked.js",
       "#dest#/github-markdown-css": "#src#/github-markdown-css/github-markdown.css",
-      "#dest#/tipBox": "#src#/TipBox/js/TipBox.min.js"
+      "#dest#/tipBox": "#src#/TipBox/js/TipBox.min.js",
+      "#dest#/cookie": "#src#/r-cookie/js/Cookie.min.js"
     },
     "less": {
       "#dest#/index": [ "#src#/index.less" ]
