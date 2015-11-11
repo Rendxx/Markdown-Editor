@@ -59,12 +59,17 @@
 
     // init
     mdlink.value = "https://raw.githubusercontent.com/Rendxx/Markdown-Editor/master/README.md";
+    $mdLinkBtn.click();
 
     var recover = $$.cookie.get(cookieKey);
-    if (recover!=null) {
-        mdInput.value = recover;
-        mdPreview.innerHTML = marked(recover);
-    } else {
-        $mdLinkBtn.click();
+    if (recover != null) {
+        $$.info.check2("Do you want to load previous content?", "Recovery", false, "rgba(0, 0, 0, 0.6)"
+            , function () {
+                mdInput.value = recover;
+                mdPreview.innerHTML = marked(recover);
+            }
+            , function () {
+                $$.cookie.del(cookieKey);
+            });
     }
 });

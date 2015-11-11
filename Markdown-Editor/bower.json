@@ -7,6 +7,7 @@
     "marked": "^0.3.5",
     "github-markdown-css": "^2.0.11",
     "TipBox": "^0.2.2",
-    "r-cookie": "^0.3.1"
+    "r-cookie": "^0.3.1",
+    "InfoBox": "^0.5.5"
 	}
 }
